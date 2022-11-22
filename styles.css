@@ -22,30 +22,10 @@ div.image-wrapper {
     align-items: center;
     justify-content: center;
 }
-/* 
-#write h1,
-#write h2,
-#write h3,
-#write h4,
-#write h5,
-#write h6,
-#write p,
-#write pre {
-    width: inherit;
-}
 
-#write h1,
-#write h2,
-#write h3,
-#write h4,
-#write h5,
-#write h6,
-#write p {
-    position: relative;
-} */
 
 p {
-    line-height: inherit;
+    font-size: 1vw;
 }
 
 h1,
@@ -59,12 +39,10 @@ h6 {
     orphans: 4;
 }
 
-p {
-    orphans: 4;
-}
+
 
 h1 {
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 h2 {
@@ -73,19 +51,12 @@ h2 {
 }
 
 h3 {
-    font-size: 1.6rem;
-}
-
-h4 {
-    font-size: 1.4rem;
-}
-
-h5 {
-    font-size: 1.2rem;
-}
-
-h6 {
-    font-size: 1rem;
+    font-size: 1vw;
+    color: #E76335;
+    font-style: italic;
+    font-family: 'Neucha', cursive;
+    text-align: center;
+    margin: 20px;
 }
 
 a:hover {
@@ -138,14 +109,7 @@ a {
     border: 10px solid #000000;
 }
 
-h3 {
-    font-size: 25px;
-    color: #E76335;
-    font-style: italic;
-    font-family: 'Neucha', cursive;
-    text-align: center;
-    margin: 20px;
-}
+
 
 .paragraph {
     text-align: left;
@@ -210,4 +174,5 @@ h1{
 }
 h4{
     text-align: center;
+    font-size: 1vw;
 }
