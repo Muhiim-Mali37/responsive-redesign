@@ -103,11 +103,12 @@ h2 {
 
 }
 
-button:hover {
+.box > button:hover {
     background-color: #BC8833;
     color: white;
     border-radius: 1vw;
 }
+
 
 h1 {
     text-align: center;
@@ -149,5 +150,4 @@ input {
     border-radius: 1vw;
     text-align: left;
     font-size: 1vw;
-    /* justify-self: center; */
 }
