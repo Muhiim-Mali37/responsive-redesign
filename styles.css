@@ -215,10 +215,7 @@ img {
     text-align: right;
 }
 
-.box-wrapper {
-    margin-left: 6vw;
-    margin-right: 6vw;
-}
+
 
 div.image-wrapper>a>img {
     max-height: 60%;
