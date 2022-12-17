@@ -51,12 +51,13 @@ h3 {
     color: #D6B7B5;
     padding-left: 50px;
     padding-top: 10px;
+    margin-bottom: 30px;
 
 }
 
 h4 {
     text-align: center;
-    font-size: 15;
+    font-size: 15px;
 }
 
 .parallax {
@@ -163,13 +164,28 @@ a {
 .box1-wrapper {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+}
+.big-wrap{
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    /* position: absolute; */
+    left: 50%;
+    transform: translate(20%, 0%)
 }
 
-*/ li {
-    font-size: 1vw;
-
+.box{
+    font-size: 1.6rem;
+	display: grid;
+	place-items: center;
+	min-height: 400px;
+	border: 8px solid;
+	padding: 1rem;
+    border-width: 10px;
+	border-image: repeating-linear-gradient(45deg, #0984E2, white 4%) 1;
 }
 
 
