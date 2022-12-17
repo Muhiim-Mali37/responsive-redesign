@@ -185,7 +185,7 @@ a {
 	border: 8px solid;
 	padding: 1rem;
     border-width: 10px;
-	border-image: repeating-linear-gradient(45deg, #0984E2, white 4%) 1;
+	border-image: linear-gradient(to bottom, turquoise, blue) 0 1;
 }
 
 
